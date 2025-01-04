@@ -86,10 +86,15 @@ body.dark .proyecto {
     background-color: #444;
 }
 
+body.dark .proyecto h3,
+body.dark .proyecto p {
+    color: white;  /* El texto de los proyectos será blanco */
+}
+
 body.dark button {
     color: white;
 }
 
 body.dark h1, body.dark h2, body.dark p {
-    color: white;
+    color: white;  /* Aseguramos que todos los textos en modo oscuro sean blancos */
 }
