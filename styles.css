@@ -125,10 +125,12 @@ body.dark h1, body.dark h2, body.dark p {
     color: white;  /* Aseguramos que todos los textos en modo oscuro sean blancos */
 }
 
+/* No cambiar el color de las imágenes en modo oscuro */
 body.dark .lenguajes-lista li .lenguaje-logo {
-    filter: brightness(0) invert(1); /* Los logotipos se vuelven blancos en modo oscuro */
+    /* Eliminar el filtro de inversión */
+    filter: none; /* Asegura que las imágenes no se alteren en modo oscuro */
 }
 
 body.dark .lenguajes-lista li p {
-    color: white;
+    color: white; /* El texto de los lenguajes será blanco en modo oscuro */
 }
