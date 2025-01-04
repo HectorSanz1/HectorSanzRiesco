@@ -87,9 +87,9 @@ body {
     margin: 20px;
 }
 
-.lenguajes-lista li .material-icons {
-    font-size: 48px;
-    color: #333;
+.lenguajes-lista li .lenguaje-logo {
+    width: 60px;
+    height: 60px;
     margin-bottom: 10px;
 }
 
@@ -125,8 +125,8 @@ body.dark h1, body.dark h2, body.dark p {
     color: white;  /* Aseguramos que todos los textos en modo oscuro sean blancos */
 }
 
-body.dark .lenguajes-lista li .material-icons {
-    color: white;
+body.dark .lenguajes-lista li .lenguaje-logo {
+    filter: brightness(0) invert(1); /* Los logotipos se vuelven blancos en modo oscuro */
 }
 
 body.dark .lenguajes-lista li p {
