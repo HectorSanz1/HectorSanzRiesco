@@ -78,7 +78,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -88,8 +88,8 @@ body {
 }
 
 .lenguajes-lista li .lenguaje-logo {
-    width: 60px;
-    height: 60px;
+    width: 80px; /* Definimos un tamaño fijo para todos los logotipos */
+    height: 80px; /* Aseguramos que los logotipos sean cuadrados */
     margin-bottom: 10px;
 }
 
