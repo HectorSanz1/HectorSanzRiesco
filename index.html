@@ -9,6 +9,19 @@
     <!-- Material Icons (por si se siguen usando) -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .lenguajes-lista {
+            list-style-type: none;
+            padding: 0;
+        }
+        .lenguaje-item {
+            display: flex;
+            align-items: center;
+        }
+        .lenguaje-logo {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,15 +61,15 @@
     <section id="lenguajes" class="section">
         <h2>Lenguajes de Programación</h2>
         <ul class="lenguajes-lista">
-            <li>
+            <li class="lenguaje-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" class="lenguaje-logo">
                 <p>JavaScript</p>
             </li>
-            <li>
+            <li class="lenguaje-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="lenguaje-logo">
                 <p>Python</p>
             </li>
-            <li>
+            <li class="lenguaje-item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML Logo" class="lenguaje-logo">
                 <p>HTML</p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS Logo" class="lenguaje-logo">
