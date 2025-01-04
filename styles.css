@@ -72,6 +72,32 @@ body {
     color: #555;
 }
 
+/* Estilo de los lenguajes de programación */
+.lenguajes-lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lenguajes-lista li {
+    text-align: center;
+    margin: 20px;
+}
+
+.lenguajes-lista li .material-icons {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.lenguajes-lista li p {
+    font-size: 16px;
+    color: #333;
+}
+
 /* Tema oscuro */
 body.dark {
     background-color: #333;
@@ -97,4 +123,12 @@ body.dark button {
 
 body.dark h1, body.dark h2, body.dark p {
     color: white;  /* Aseguramos que todos los textos en modo oscuro sean blancos */
+}
+
+body.dark .lenguajes-lista li .material-icons {
+    color: white;
+}
+
+body.dark .lenguajes-lista li p {
+    color: white;
 }
